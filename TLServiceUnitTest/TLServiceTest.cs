@@ -18,7 +18,7 @@ namespace TLServiceUnitTest
         public void GetServiceName_Test1()
         {
             string serviceName = _service.GetServiceName();
-            Assert.Equals(serviceName, "TruongLocService");
+            Assert.AreEqual(serviceName, "TruongLocService");
         }
 
         [TestMethod]
